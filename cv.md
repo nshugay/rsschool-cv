@@ -11,7 +11,7 @@
 ## Hard Skills
 
 - HTML
-- CSS
+- CSS (Bootstrap)
 - JavaScript (Fundamentals)
 - Git/GitHub
 - Photoshop
@@ -35,8 +35,7 @@
 - **Belarusian State Economic University**
   - Finance and Banking, 2019-2023
 - **Courses:**
-  - The Rolling Scopes School
-    [JavaScript / Front-end Course. Pre-school](https://rs.school/courses/javascript-preschool-ru)
+  - The Rolling Scopes School [JavaScript / Front-end Course. Pre-school](https://rs.school/courses/javascript-preschool-ru)
 
 ## Languages
 
