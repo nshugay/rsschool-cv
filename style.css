@@ -146,3 +146,22 @@ a:hover {
   width: 50%;
   padding: 0px 0px 0px 0px;
 }
+
+/*main*/
+
+.section {
+  padding: 8px;
+  width: 100%;
+  position: relative;
+}
+  
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+  
+.section:hover {
+  background-color: rgba(0, 0, 0, 0.044);
+  transition: 0.8s;
+} 
