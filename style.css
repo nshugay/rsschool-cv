@@ -4,10 +4,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  width: width-device-width;
-  font-family: system-ui, -apple-system, sans-serif;
 }
   
+div:not(.code-code) {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
 html {
   display: flex;
   justify-content: center;
@@ -251,6 +253,17 @@ a:hover {
   background-image: url("./assets/img/mark.png");
 }
 
+/*code*/
+
+.code-code {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: smaller;
+  color:rgba(0, 0, 0, 0.571);
+}
+
 /*footer decoration*/
 
 .footer-container {
@@ -264,7 +277,7 @@ a:hover {
 }
 
 .footer-container:hover {
-  background-color: rgba(0, 0, 0, 0.044);
+  background-color: rgba(235, 197, 197, 0.044);
   transition: 0.5s;
 }
 
