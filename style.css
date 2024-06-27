@@ -90,7 +90,7 @@ a:hover {
   width: 100%;
   height: 435px;
   background-color: #000000;
-  background-image: url(./assets/img/photo.JPEG);
+  background-image: url("./assets/img/photo.JPEG");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -224,29 +224,77 @@ a:hover {
 }
 
 .html-skill-logo {
-  background-image: url(./assets/img/html-skillbar.png);
+  background-image: url("./assets/img/html-skillbar.png");
 }
 
 .css-skill-logo {
-  background-image: url(./assets/img/css-skillbar.png);
+  background-image: url("./assets/img/css-skillbar.png");
 }
 
 .ps-skill-logo {
-  background-image: url(./assets/img/ps-skillbar.png);
+  background-image: url("./assets/img/ps-skillbar.png");
 }
 
 .gh-skill-logo {
-  background-image: url(./assets/img/gh-skillbar.png);
+  background-image: url("./assets/img/gh-skillbar.png");
 }
 
 .figma-skill-logo {
-  background-image: url(./assets/img/figma-skillbar.webp);
+  background-image: url("./assets/img/figma-skillbar.webp");
 }
 
 .js-skill-logo {
-  background-image: url(./assets/img/js-skillbar.svg);
+  background-image: url("./assets/img/js-skillbar.svg");
 }
 
 .md-logo {
-  background-image: url(./assets/img/mark.png);
+  background-image: url("./assets/img/mark.png");
+}
+
+/*footer decoration*/
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 7.5px;
+  color: #000000;
+  border-top: 1px solid rgba(0, 0, 0, 0.044);
+}
+
+.footer-container:hover {
+  background-color: rgba(0, 0, 0, 0.044);
+  transition: 0.5s;
+}
+
+.rss {
+  width: 47px;
+  height: 47px;
+  background-image: url("./assets/img/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.github-footer {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-image: url("./assets/img/github-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.github-footer:hover {
+  background-color: rgb(230, 179, 76);
+  transition: 0.2s;
+}
+
+#footer-p {
+  display: flex;
+  margin: 14.5px;
+  font-size: 15px;
 }
