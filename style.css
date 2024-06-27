@@ -94,6 +94,7 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 /*profile-section decoration*/
 
 #profile {
@@ -114,7 +115,7 @@ a:hover {
   font-size: 58px;
   line-height: 1.15;
   text-transform: uppercase;
-  color: rgb(162, 76, 248);
+  color: rgba(168, 76, 248, 0.973);
 }
 
 #p1 {
@@ -130,7 +131,7 @@ a:hover {
 
 /*columns*/
 
-.right-column {
+.left-column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -138,7 +139,7 @@ a:hover {
   width: 50%;
 }
 
-.left-column {
+.right-column {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -150,9 +151,9 @@ a:hover {
 /*main*/
 
 .section {
+  position: relative;
   padding: 8px;
   width: 100%;
-  position: relative;
 }
   
 @media (max-width: 768px) {
@@ -165,3 +166,87 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.044);
   transition: 0.8s;
 } 
+
+/*skills-projects-section decoration*/
+
+.skills,
+.projects {
+  display: flex;
+  padding-left: 20px;
+}
+
+.skill-name {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0;
+}
+
+.skillbar {
+  display: flex;
+  justify-items: start;
+  margin: 3px 0px;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  padding: 0;
+  margin: 3px 0px;
+  width: 100%;
+}
+
+.circle-zero-score,
+.circle-score {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.circle-zero-score {
+  border: 1px solid rgba(0, 0, 0, 0.173);
+}
+
+.circle-score {
+  background-color: rgba(0, 0, 0, 0.173);
+}
+
+.skill-logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+}
+
+.html-skill-logo {
+  background-image: url(./assets/img/html-skillbar.png);
+}
+
+.css-skill-logo {
+  background-image: url(./assets/img/css-skillbar.png);
+}
+
+.ps-skill-logo {
+  background-image: url(./assets/img/ps-skillbar.png);
+}
+
+.gh-skill-logo {
+  background-image: url(./assets/img/gh-skillbar.png);
+}
+
+.figma-skill-logo {
+  background-image: url(./assets/img/figma-skillbar.webp);
+}
+
+.js-skill-logo {
+  background-image: url(./assets/img/js-skillbar.svg);
+}
+
+.md-logo {
+  background-image: url(./assets/img/mark.png);
+}
