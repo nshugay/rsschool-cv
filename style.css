@@ -255,12 +255,12 @@ a:hover {
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 7.5px;
+  padding: 0px 8px;
   color: #000000;
-  border-top: 1px solid rgba(0, 0, 0, 0.044);
+  border: 1px solid rgba(0, 0, 0, 0.044);
 }
 
 .footer-container:hover {
@@ -269,32 +269,14 @@ a:hover {
 }
 
 .rss {
-  width: 47px;
-  height: 47px;
+  width: 70px;
+  height: 30px;
   background-image: url("./assets/img/rss.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 50%;
-  background-color: #ffffff;
-}
-
-.github-footer {
-  width: 47px;
-  height: 47px;
-  border-radius: 50%;
-  background-image: url("./assets/img/github-logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-}
-
-.github-footer:hover {
-  background-color: rgb(230, 179, 76);
-  transition: 0.2s;
 }
 
 #footer-p {
-  display: flex;
-  margin: 14.5px;
+  margin: 15px 0px;
   font-size: 15px;
 }
