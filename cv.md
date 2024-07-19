@@ -3,7 +3,7 @@
 ## Contacts
 
 - **Location:** Minsk, Belarus
-- **Phone:** +375 29 828-43-58
+- **Phone:** +00 000 000-00-00
 - **Email:** nshugay1@gmail.com
 - **Telegram:** [nshugay](https://t.me/nshugay)
 - **GitHub:** [nshugay](https://github.com/nshugay)
