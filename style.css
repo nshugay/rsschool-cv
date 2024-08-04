@@ -27,10 +27,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  width: 850px;
-  height: auto;
   max-width: 1440px;
   padding: 0;
+  margin: 0 10px;
   border-right: 1px solid rgba(0, 0, 0, 0.044);
   border-left: 1px solid rgba(0, 0, 0, 0.044);
 }
@@ -84,6 +83,36 @@ a:hover {
   transition: 0.3s;
 }
 
+.burger {
+  margin: 15px 0px 15px 20px;
+  display: none;
+  width: 28px;
+  height: 22px;
+  border-top: 1px solid rgba(0, 0, 0, 0.562); 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.562);  
+  justify-content: right;
+  cursor: pointer;
+}
+
+.burger__line {
+  margin-top: calc(50% - 3px);
+  background: rgba(0, 0, 0, 0.562);  
+  height: 1px;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+  .nav {
+    justify-content: right;
+  }
+  .burger {
+    display: inline-block;
+    margin-top: 19px;
+  }
+}
+
 /*main-container decoration*/
 
 .main-container {
@@ -129,7 +158,20 @@ a:hover {
   color: rgba(223, 218, 218, 0.795);
 }
 
+@media (max-width: 365px) {
+  .main-container {
+    height: 250px;
+  }
+  #h1 {
+    font-size: 30px;
+  }
+}
+
 /*columns*/
+
+.wrapper {
+  display: flex;
+}
 
 .left-column {
   display: flex;
@@ -147,6 +189,16 @@ a:hover {
   align-items: flex-start;
   width: 58%;
   padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+  flex-direction: column;}
+  .left-column,
+  .right-column {
+    width: 100%;
+    border-right: none;
+  }
 }
 
 /*main*/
@@ -289,7 +341,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 10px;
   padding: 0px 8px;
   color: #000000;
   border: 1px solid rgba(0, 0, 0, 0.044);
@@ -309,6 +361,6 @@ a:hover {
 }
 
 #footer-p {
-  margin: 15px 0px;
+  margin: 10px 0px;
   font-size: 15px;
 }
