@@ -92,6 +92,7 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.562);  
   justify-content: right;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.67);
 }
 
 .burger__line {
